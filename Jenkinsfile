@@ -21,7 +21,7 @@ echo "Build du projet"
 stage('Deploy') {
 steps {
 echo "Déploiement du projet"
-sh "roua.js"
+sh " node roua.js"
 // Ajoutez les commandes de déploiement ici
 }
 }
